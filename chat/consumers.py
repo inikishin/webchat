@@ -3,6 +3,8 @@ import logging
 from channels.generic.websocket import WebsocketConsumer
 from asgiref.sync import async_to_sync
 
+from .models import Message, Account, Group
+
 logger = logging.getLogger(__name__)
 
 class ChatConsumer(WebsocketConsumer):
@@ -17,6 +19,22 @@ class ChatConsumer(WebsocketConsumer):
             self.channel_name
         )
 
+        groupHistory = Message.objects.filter(group=chat_name)
+        print(chat_name)
+        print(groupHistory)
+        if len(groupHistory) > 0:
+            for msg in groupHistory:
+                async_to_sync(self.channel_layer.group_send)(
+                    self.room_group_name,
+                    {
+                        'type': 'chat_message',
+                        'user': msg.user.id,
+                        'group': msg.group.id,
+                        'message': msg.text,
+                        'posted': msg.posted.isoformat()
+                    }
+                )
+
         self.accept()
 
     def disconnect(self, code):
@@ -29,21 +47,26 @@ class ChatConsumer(WebsocketConsumer):
     def receive(self, text_data=None, bytes_data=None):
         logger.warning(f'message recived: {text_data}')
         text_data_json = json.loads(text_data)
+
+        print('recive', text_data)
         message = text_data_json['message']
-        print(text_data)
+        user = Account.objects.get(id=text_data_json['user'])
+        group = Group.objects.get(id=text_data_json['group'])
+        msg = Message(user=user, group=group, text=message)
+        msg.save()
 
         async_to_sync(self.channel_layer.group_send)(
             self.room_group_name,
             {
                 'type': 'chat_message',
-                'message': message
+                'user': msg.user.id,
+                'group': msg.group.id,
+                'message': msg.text,
+                'posted': msg.posted.isoformat()
             }
         )
 
     def chat_message(self, event):
-        message = event['message']
-        print('123', event)
+        print('chat_message:', event)
 
-        self.send(text_data=json.dumps({
-            'message': message
-        }))
+        self.send(text_data=json.dumps(event))

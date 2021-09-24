@@ -2,7 +2,7 @@ import {
     WS_CONNECTION_SUCCESS,
     WS_CONNECTION_ERROR,
     WS_CONNECTION_CLOSED,
-    WS_GET_MESSAGE,
+    WS_GET_MESSAGE, WS_CLEAR_HISTORY,
 } from "../actions/chat";
 
 const initialState = {
@@ -22,22 +22,24 @@ export const chat = (state = initialState, action) => {
             };
         }
 
-        case WS_CONNECTION_ERROR:
+        case WS_CONNECTION_ERROR: {
             console.log(action.payload);
             return {
                 ...state,
                 error: action.payload,
                 wsConnected: false
             };
+        }
 
-        case WS_CONNECTION_CLOSED:
+        case WS_CONNECTION_CLOSED: {
             return {
                 ...state,
                 error: '',
                 wsConnected: false
             };
+        }
 
-        case WS_GET_MESSAGE:
+        case WS_GET_MESSAGE: {
             return {
                 ...state,
                 error: '',
@@ -45,6 +47,11 @@ export const chat = (state = initialState, action) => {
                     ? [...state.messages, action.payload]
                     : [action.payload]
             };
+        }
+
+        case WS_CLEAR_HISTORY: {
+            return {...state, messages: []}
+        }
 
         default: {
             return {...state}
