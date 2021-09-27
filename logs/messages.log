@@ -161,3 +161,314 @@
 2021-09-24 07:55:40,819 connection with chat "1" established
 2021-09-24 07:55:41,826 connection closed
 2021-09-24 07:55:41,839 connection with chat "4" established
+2021-09-24 07:57:12,363 connection with chat "undefined" established
+2021-09-24 07:57:27,937 connection with chat "1" established
+2021-09-24 07:57:29,125 connection closed
+2021-09-24 07:57:29,128 connection with chat "4" established
+2021-09-24 07:57:30,250 connection closed
+2021-09-24 07:57:30,265 connection with chat "2" established
+2021-09-24 07:57:30,617 connection closed
+2021-09-24 07:57:30,630 connection with chat "3" established
+2021-09-24 07:57:38,993 message recived: {"user":2,"group":3,"message":"new group work"}
+2021-09-24 11:42:12,480 connection closed
+2021-09-24 12:03:15,739 connection with chat "undefined" established
+2021-09-24 12:07:33,601 connection with chat "undefined" established
+2021-09-24 12:29:41,454 connection with chat "undefined" established
+2021-09-24 12:38:48,128 connection with chat "undefined" established
+2021-09-24 12:39:17,730 connection with chat "undefined" established
+2021-09-24 12:40:26,381 connection with chat "undefined" established
+2021-09-24 12:43:21,757 connection with chat "undefined" established
+2021-09-24 12:56:34,228 connection with chat "undefined" established
+2021-09-24 18:28:58,708 connection with chat "undefined" established
+2021-09-24 18:32:44,167 connection with chat "1" established
+2021-09-24 18:32:46,515 connection closed
+2021-09-24 18:32:46,525 connection with chat "2" established
+2021-09-24 18:39:00,149 connection closed
+2021-09-24 18:39:00,157 connection with chat "1" established
+2021-09-24 18:39:01,978 connection closed
+2021-09-24 18:39:01,988 connection with chat "2" established
+2021-09-24 18:39:12,296 connection closed
+2021-09-24 18:39:12,305 connection with chat "1" established
+2021-09-24 18:39:14,743 connection closed
+2021-09-24 18:39:14,754 connection with chat "2" established
+2021-09-24 18:39:52,572 connection closed
+2021-09-24 18:39:55,376 connection with chat "undefined" established
+2021-09-24 18:45:38,153 connection with chat "2" established
+2021-09-24 18:47:14,244 connection closed
+2021-09-24 18:47:14,248 connection with chat "1" established
+2021-09-24 18:50:21,656 connection closed
+2021-09-24 18:50:21,661 connection with chat "2" established
+2021-09-24 18:50:21,821 connection closed
+2021-09-24 18:50:21,828 connection with chat "1" established
+2021-09-24 18:53:39,096 connection closed
+2021-09-24 18:53:39,100 connection with chat "2" established
+2021-09-24 18:53:44,025 connection closed
+2021-09-24 18:53:44,028 connection with chat "1" established
+2021-09-24 18:53:44,674 connection closed
+2021-09-24 18:53:44,681 connection with chat "2" established
+2021-09-24 18:53:45,626 connection closed
+2021-09-24 18:53:45,636 connection with chat "1" established
+2021-09-24 18:53:46,728 connection closed
+2021-09-24 18:53:46,734 connection with chat "2" established
+2021-09-24 18:54:39,250 connection closed
+2021-09-24 18:54:39,265 connection with chat "1" established
+2021-09-24 18:54:40,076 connection closed
+2021-09-24 18:54:40,081 connection with chat "2" established
+2021-09-24 18:54:41,720 connection closed
+2021-09-24 18:54:41,724 connection with chat "1" established
+2021-09-24 18:54:46,894 connection closed
+2021-09-24 18:54:46,901 connection with chat "2" established
+2021-09-24 18:54:48,661 connection closed
+2021-09-24 18:54:48,665 connection with chat "3" established
+2021-09-24 18:55:57,530 connection closed
+2021-09-24 18:55:57,533 connection with chat "2" established
+2021-09-24 18:55:58,426 connection closed
+2021-09-24 18:55:58,431 connection with chat "1" established
+2021-09-24 18:56:58,373 connection closed
+2021-09-24 18:56:58,379 connection with chat "1" established
+2021-09-24 18:57:08,791 connection closed
+2021-09-24 18:57:11,718 connection with chat "undefined" established
+2021-09-24 18:57:13,974 connection with chat "1" established
+2021-09-24 18:57:14,982 connection closed
+2021-09-24 18:57:14,985 connection with chat "2" established
+2021-09-24 18:58:03,152 connection closed
+2021-09-24 18:58:03,158 connection with chat "1" established
+2021-09-24 18:58:03,909 connection closed
+2021-09-24 18:58:03,915 connection with chat "2" established
+2021-09-24 18:58:04,667 connection closed
+2021-09-24 18:58:04,674 connection with chat "1" established
+2021-09-24 19:01:08,090 connection closed
+2021-09-24 19:01:08,093 connection with chat "2" established
+2021-09-24 19:01:09,151 connection closed
+2021-09-24 19:01:09,157 connection with chat "1" established
+2021-09-24 19:01:09,821 connection closed
+2021-09-24 19:01:09,827 connection with chat "2" established
+2021-09-24 19:03:39,234 connection closed
+2021-09-24 19:03:39,238 connection with chat "1" established
+2021-09-24 19:03:40,087 connection closed
+2021-09-24 19:03:40,092 connection with chat "2" established
+2021-09-24 19:03:40,951 connection closed
+2021-09-24 19:03:40,959 connection with chat "3" established
+2021-09-24 19:04:12,765 connection closed
+2021-09-24 19:04:12,769 connection with chat "1" established
+2021-09-24 19:04:13,604 connection closed
+2021-09-24 19:04:13,610 connection with chat "2" established
+2021-09-24 19:04:13,985 connection closed
+2021-09-24 19:04:13,991 connection with chat "3" established
+2021-09-24 19:04:36,512 connection closed
+2021-09-24 19:04:36,518 connection with chat "1" established
+2021-09-24 19:05:20,379 connection closed
+2021-09-24 19:05:20,386 connection with chat "2" established
+2021-09-24 19:05:21,132 connection closed
+2021-09-24 19:05:21,139 connection with chat "3" established
+2021-09-24 19:05:22,026 connection closed
+2021-09-24 19:05:22,030 connection with chat "2" established
+2021-09-24 19:05:22,448 connection closed
+2021-09-24 19:05:22,453 connection with chat "1" established
+2021-09-24 19:06:09,701 connection closed
+2021-09-24 19:06:09,705 connection with chat "2" established
+2021-09-24 19:06:11,651 connection closed
+2021-09-24 19:06:11,658 connection with chat "1" established
+2021-09-24 19:07:00,044 connection closed
+2021-09-24 19:07:00,049 connection with chat "2" established
+2021-09-24 19:07:00,945 connection closed
+2021-09-24 19:07:00,951 connection with chat "1" established
+2021-09-24 19:07:02,051 connection closed
+2021-09-24 19:07:02,056 connection with chat "2" established
+2021-09-24 19:07:40,811 connection closed
+2021-09-24 19:07:40,814 connection with chat "1" established
+2021-09-24 19:07:41,553 connection closed
+2021-09-24 19:07:41,560 connection with chat "3" established
+2021-09-24 19:08:37,581 connection closed
+2021-09-24 19:08:37,587 connection with chat "2" established
+2021-09-24 19:08:38,261 connection closed
+2021-09-24 19:08:38,268 connection with chat "3" established
+2021-09-24 19:09:55,498 connection closed
+2021-09-24 19:09:55,504 connection with chat "2" established
+2021-09-24 19:09:56,243 connection closed
+2021-09-24 19:09:56,247 connection with chat "1" established
+2021-09-24 19:10:12,355 connection closed
+2021-09-24 19:10:12,359 connection with chat "2" established
+2021-09-24 19:10:14,413 connection closed
+2021-09-24 19:10:14,419 connection with chat "1" established
+2021-09-24 19:10:15,038 connection closed
+2021-09-24 19:10:15,043 connection with chat "2" established
+2021-09-24 19:10:16,661 connection closed
+2021-09-24 19:10:16,668 connection with chat "3" established
+2021-09-24 19:10:18,663 connection closed
+2021-09-24 19:10:18,668 connection with chat "2" established
+2021-09-24 19:11:05,812 connection closed
+2021-09-24 19:11:05,817 connection with chat "2" established
+2021-09-24 19:11:14,556 connection closed
+2021-09-24 19:11:14,560 connection with chat "1" established
+2021-09-24 19:11:15,486 connection closed
+2021-09-24 19:11:15,490 connection with chat "3" established
+2021-09-24 19:11:28,188 connection closed
+2021-09-24 19:11:28,191 connection with chat "1" established
+2021-09-24 19:12:21,691 connection closed
+2021-09-24 19:12:21,699 connection with chat "1" established
+2021-09-24 19:14:21,401 connection closed
+2021-09-24 19:14:21,416 connection with chat "1" established
+2021-09-24 19:23:20,230 connection closed
+2021-09-24 19:23:20,233 connection with chat "1" established
+2021-09-24 19:24:44,909 connection closed
+2021-09-24 19:24:44,914 connection with chat "1" established
+2021-09-24 19:25:54,673 connection closed
+2021-09-24 19:25:54,676 connection with chat "1" established
+2021-09-24 19:26:27,728 connection closed
+2021-09-24 19:26:27,747 connection with chat "1" established
+2021-09-24 19:28:04,171 connection closed
+2021-09-24 19:28:04,175 connection with chat "1" established
+2021-09-24 19:28:50,639 connection closed
+2021-09-24 19:28:50,643 connection with chat "1" established
+2021-09-24 19:30:04,277 connection closed
+2021-09-24 19:30:07,551 connection with chat "undefined" established
+2021-09-24 19:30:09,299 connection with chat "1" established
+2021-09-24 19:35:34,179 connection closed
+2021-09-24 19:35:34,183 connection with chat "2" established
+2021-09-24 19:35:35,291 connection closed
+2021-09-24 19:35:35,296 connection with chat "3" established
+2021-09-24 19:38:51,708 connection closed
+2021-09-24 19:38:51,713 connection with chat "3" established
+2021-09-24 20:22:43,145 connection with chat "undefined" established
+2021-09-24 20:23:21,709 connection with chat "undefined" established
+2021-09-24 20:23:27,710 connection with chat "undefined" established
+2021-09-24 20:24:01,818 connection with chat "undefined" established
+2021-09-24 20:24:36,890 connection with chat "undefined" established
+2021-09-24 20:26:23,029 connection with chat "undefined" established
+2021-09-24 20:27:05,867 connection with chat "undefined" established
+2021-09-24 20:28:34,187 connection with chat "undefined" established
+2021-09-24 20:28:49,580 connection with chat "undefined" established
+2021-09-24 20:28:52,942 connection with chat "1" established
+2021-09-24 20:29:02,735 connection closed
+2021-09-24 20:29:05,385 connection with chat "undefined" established
+2021-09-24 20:29:07,325 connection with chat "1" established
+2021-09-24 20:29:51,936 connection closed
+2021-09-24 20:29:51,942 connection with chat "1" established
+2021-09-24 20:31:15,436 connection closed
+2021-09-24 20:31:15,439 connection with chat "1" established
+2021-09-24 20:31:58,023 connection closed
+2021-09-24 20:31:58,031 connection with chat "1" established
+2021-09-24 20:32:54,291 connection closed
+2021-09-24 20:32:54,296 connection with chat "1" established
+2021-09-24 20:33:41,406 connection closed
+2021-09-24 20:33:41,412 connection with chat "1" established
+2021-09-24 20:41:37,625 connection closed
+2021-09-24 20:41:40,995 connection with chat "undefined" established
+2021-09-24 20:41:44,275 connection with chat "1" established
+2021-09-24 20:44:30,872 connection closed
+2021-09-24 20:44:30,875 connection with chat "1" established
+2021-09-24 20:44:39,694 connection closed
+2021-09-24 20:44:39,699 connection with chat "4" established
+2021-09-24 20:44:40,271 connection closed
+2021-09-24 20:44:40,279 connection with chat "3" established
+2021-09-24 20:44:40,679 connection closed
+2021-09-24 20:44:40,687 connection with chat "2" established
+2021-09-24 20:45:56,625 connection closed
+2021-09-24 20:45:56,628 connection with chat "1" established
+2021-09-24 20:45:58,311 connection closed
+2021-09-24 20:45:58,316 connection with chat "2" established
+2021-09-24 20:46:13,025 connection closed
+2021-09-24 20:46:13,032 connection with chat "3" established
+2021-09-24 20:46:13,444 connection closed
+2021-09-24 20:46:13,451 connection with chat "2" established
+2021-09-24 20:46:13,896 connection closed
+2021-09-24 20:46:13,902 connection with chat "1" established
+2021-09-24 20:46:15,561 connection closed
+2021-09-24 20:46:15,570 connection with chat "4" established
+2021-09-24 20:46:16,507 connection closed
+2021-09-24 20:46:16,515 connection with chat "2" established
+2021-09-24 20:46:25,165 connection closed
+2021-09-24 20:46:25,172 connection with chat "3" established
+2021-09-24 20:48:14,953 connection closed
+2021-09-24 20:48:14,956 connection with chat "1" established
+2021-09-24 20:48:20,422 connection closed
+2021-09-24 20:48:20,425 connection with chat "2" established
+2021-09-24 20:52:36,166 connection closed
+2021-09-24 20:52:36,173 connection with chat "1" established
+2021-09-24 20:52:37,002 connection closed
+2021-09-24 20:52:37,006 connection with chat "2" established
+2021-09-24 20:52:37,411 connection closed
+2021-09-24 20:52:37,419 connection with chat "1" established
+2021-09-24 20:55:44,223 connection closed
+2021-09-24 20:55:44,228 connection with chat "2" established
+2021-09-24 20:55:44,749 connection closed
+2021-09-24 20:55:44,753 connection with chat "1" established
+2021-09-24 20:55:45,485 connection closed
+2021-09-24 20:55:45,493 connection with chat "3" established
+2021-09-24 20:55:47,558 connection closed
+2021-09-24 20:55:47,562 connection with chat "4" established
+2021-09-24 21:05:17,841 connection closed
+2021-09-24 21:05:17,846 connection with chat "2" established
+2021-09-24 21:05:19,025 connection closed
+2021-09-24 21:05:19,030 connection with chat "1" established
+2021-09-24 21:06:09,308 connection closed
+2021-09-24 21:06:09,313 connection with chat "2" established
+2021-09-24 21:06:09,842 connection closed
+2021-09-24 21:06:09,849 connection with chat "3" established
+2021-09-24 21:06:10,583 connection closed
+2021-09-24 21:06:10,589 connection with chat "1" established
+2021-09-24 21:06:32,919 connection with chat "undefined" established
+2021-09-24 21:06:36,769 connection with chat "1" established
+2021-09-24 21:06:41,773 message recived: {"user":2,"group":1,"message":"123"}
+2021-09-24 21:06:53,457 message recived: {"user":3,"group":1,"message":"another window"}
+2021-09-27 06:49:41,166 connection with chat "undefined" established
+2021-09-27 06:50:04,103 connection with chat "undefined" established
+2021-09-27 06:54:10,050 connection with chat "undefined" established
+2021-09-27 06:54:15,511 connection with chat "1" established
+2021-09-27 06:54:17,398 message recived: {"user":2,"group":1,"message":"12"}
+2021-09-27 06:55:01,106 connection closed
+2021-09-27 06:58:16,353 connection with chat "undefined" established
+2021-09-27 06:59:11,744 connection with chat "2" established
+2021-09-27 06:59:12,440 connection closed
+2021-09-27 06:59:12,444 connection with chat "1" established
+2021-09-27 06:59:13,376 connection closed
+2021-09-27 06:59:13,380 connection with chat "2" established
+2021-09-27 06:59:13,970 connection closed
+2021-09-27 06:59:13,975 connection with chat "1" established
+2021-09-27 07:19:11,682 connection closed
+2021-09-27 07:19:14,507 connection with chat "undefined" established
+2021-09-27 07:19:16,946 connection with chat "1" established
+2021-09-27 07:31:22,473 connection closed
+2021-09-27 07:31:25,271 connection with chat "undefined" established
+2021-09-27 07:31:25,834 connection with chat "1" established
+2021-09-27 07:32:10,081 connection closed
+2021-09-27 07:32:10,083 connection with chat "1" established
+2021-09-27 07:35:02,549 connection closed
+2021-09-27 07:35:33,375 connection with chat "undefined" established
+2021-09-27 07:35:36,465 connection with chat "1" established
+2021-09-27 07:46:58,611 connection closed
+2021-09-27 07:46:58,613 connection with chat "2" established
+2021-09-27 07:46:59,074 connection closed
+2021-09-27 07:46:59,078 connection with chat "1" established
+2021-09-27 07:51:48,618 connection closed
+2021-09-27 07:51:51,227 connection with chat "undefined" established
+2021-09-27 07:51:52,641 connection with chat "1" established
+2021-09-27 08:00:23,147 connection closed
+2021-09-27 08:00:25,903 connection with chat "undefined" established
+2021-09-27 08:00:27,422 connection with chat "1" established
+2021-09-27 08:01:30,335 message recived: {"user":2,"group":1}
+2021-09-27 08:03:13,705 connection with chat "undefined" established
+2021-09-27 08:03:14,436 connection with chat "2" established
+2021-09-27 08:03:14,659 connection closed
+2021-09-27 08:03:14,663 connection with chat "1" established
+2021-09-27 08:03:17,892 message recived: {"user":2,"group":1,"message":"Type a message here"}
+2021-09-27 08:03:25,266 message recived: {"user":2,"group":1,"message":"Type a message hereType a message hereType a message hereType a message hereType a message hereType a message hereType a message hereType a message here"}
+2021-09-27 08:03:29,878 message recived: {"user":2,"group":1,"message":"Type a message hereType a message hereType a message hereType a message hereType a message here"}
+2021-09-27 08:03:35,002 message recived: {"user":2,"group":1,"message":"Type a message hereType a message here"}
+2021-09-27 08:06:54,164 connection closed
+2021-09-27 08:06:54,167 connection with chat "2" established
+2021-09-27 08:06:55,483 connection closed
+2021-09-27 08:06:55,487 connection with chat "3" established
+2021-09-27 08:06:57,670 connection closed
+2021-09-27 08:06:57,674 connection with chat "1" established
+2021-09-27 08:29:42,452 connection closed
+2021-09-27 08:29:59,335 connection with chat "undefined" established
+2021-09-27 08:30:00,783 connection with chat "1" established
+2021-09-27 08:30:19,717 connection closed
+2021-09-27 08:30:21,617 connection with chat "undefined" established
+2021-09-27 08:30:22,696 connection with chat "1" established
+2021-09-27 08:30:40,594 connection closed
+2021-09-27 08:30:41,724 connection with chat "undefined" established
+2021-09-27 08:30:42,840 connection with chat "1" established
+2021-09-27 08:30:54,728 message recived: {"user":2,"group":1,"message":"Type a message here"}

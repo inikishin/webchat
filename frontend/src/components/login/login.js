@@ -17,6 +17,10 @@ function Login() {
 
     useEffect(() => {
         dispatch(getUsers());
+
+        const savedUser = localStorage.getItem('last_user');
+        savedUser && setCurrentUser(JSON.parse(savedUser));
+        // TODO Fix incorrect caption in Input
     }, [dispatch]);
 
     const handleUserChange = (e) => {
@@ -25,6 +29,7 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        localStorage.setItem('last_user', JSON.stringify(currentUser));
         dispatch({type: LOGIN, user: currentUser});
     }
 
@@ -36,7 +41,10 @@ function Login() {
                     <form>
                         <FormControl fullWidth>
                             <InputLabel>Username</InputLabel>
-                            <Select name="username" label="Username" onChange={handleUserChange}>
+                            <Select name="username"
+                                    label={currentUser.username ? currentUser.username : 'Username'}
+                                    onChange={handleUserChange}
+                                    value={currentUser.id}>
                                 {list.map(item => (<MenuItem value={item.id}>{item.username}</MenuItem>))}
                             </Select>
                         </FormControl>

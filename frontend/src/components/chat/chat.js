@@ -7,8 +7,8 @@ import {WS_CLEAR_HISTORY, WS_CONNECTION_START, WS_SEND_MESSAGE} from "../../serv
 import {makeStyles} from "@mui/styles";
 import Groups from "../groups/groups";
 import Messages from "../messages/messages";
-import {Container, Grid} from "@mui/material";
-import Header from "../header/header";
+import {Box, Container, Grid} from "@mui/material";
+import Sidebar from "../sidebar/sidebar";
 
 const useStyles = makeStyles(theme => (styles));
 
@@ -28,17 +28,17 @@ function Chat() {
 
 
     return (
-        <Container maxWidth='xl'>
-            <Header/>
-            <Grid container spacing={2} className={classes.chatWrapper}>
-                <Grid item xs={4} className={classes.columnWrapper}>
+        <div className={classes.mainPageWrapper}>
+            <Sidebar/>
+            <div className={classes.chatWrapper}>
+                <div className={classes.groupsWrapper}>
                     <Groups/>
-                </Grid>
-                <Grid item xs={8}>
+                </div>
+                <div className={classes.messagesWrapper}>
                     <Messages/>
-                </Grid>
-            </Grid>
-        </Container>
+                </div>
+            </div>
+        </div>
 
     )
 }
