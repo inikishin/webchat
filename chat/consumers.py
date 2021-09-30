@@ -19,7 +19,7 @@ class ChatConsumer(WebsocketConsumer):
             self.channel_name
         )
 
-        groupHistory = Message.objects.filter(group=chat_name)
+        groupHistory = Message.objects.filter(group_id=chat_name)
         print(chat_name)
         print(groupHistory)
         if len(groupHistory) > 0:

@@ -12,7 +12,7 @@ import SendIcon from '@material-ui/icons/Send';
 import AddIcon from '@material-ui/icons/Add';
 import emptyAvatar from "../../assets/img/empty-avatar.jpg";
 
-import { formatDistance, subDays } from 'date-fns';
+import { formatDistance } from 'date-fns';
 
 const useStyles = makeStyles(theme => (styles));
 
@@ -63,9 +63,10 @@ function Message({message, user, posted, userList}) {
 
     return (
         <div className={classes.messageWrapper}>
-            <div><img src={emptyAvatar} alt={userObj.username} className={classes.avatarImg}/></div>
+            <div><img src={userObj.avatar} alt={userObj.username} className={classes.avatarImg}/></div>
             <div className={classes.messageTextDate}>
                 <div className={classes.message}>
+                    <Typography variant='h3' color={'white'}>{userObj.username}:</Typography>
                     <Typography color='white'>{message}</Typography>
                 </div>
                 <div className={classes.messageDate}>
@@ -87,6 +88,7 @@ function OwnMessage({message, user, posted, userList}) {
         <div className={classes.ownMessageWrapper}>
             <div className={classes.messageTextDate}>
                 <div className={classes.ownMessage}>
+                    <Typography variant='h3'>{userObj.username}:</Typography>
                     <Typography>{message}</Typography>
                 </div>
                 <div className={classes.messageDate}>
@@ -95,7 +97,7 @@ function OwnMessage({message, user, posted, userList}) {
                     </Typography>
                 </div>
             </div>
-            <div><img src={emptyAvatar} alt={userObj.username} className={classes.avatarImg}/></div>
+            <div><img src={userObj.avatar} alt={userObj.username} className={classes.avatarImg}/></div>
         </div>
     );
 }

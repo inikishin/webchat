@@ -12,9 +12,13 @@ class AccountViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = AccountSerializer
     filterset_fields = ['id']
 
-    @action(methods=['post'], detail=False, url_path='login')
+    @action(methods=['get', 'post'], detail=False, url_path='login')
     def login(self, request):
         print('login')
+        print(request.query_params['username'])
+        account = Account.objects.get(user__username=request.query_params['username'])
+        print(account)
+        account.logged_in()
         return Response(status=status.HTTP_200_OK)
 
     @action(methods=['post'], detail=False, url_path='logout')

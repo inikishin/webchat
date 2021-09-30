@@ -9,3 +9,7 @@ export const getUsersRequest = async () => {
 export const getGroupsRequest = async () => {
     return await fetch(getUrl('groups/'));
 }
+
+export const loginRequest = async (user) => {
+    return await fetch(getUrl('accounts/login/') + `?username=${user.username}`)
+}

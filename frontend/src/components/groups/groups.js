@@ -7,6 +7,7 @@ import {Box, Button, Card, Typography} from '@mui/material';
 import {getGroups, SET_CURRENT_GROUP} from "../../services/actions/groups";
 
 import emptyAvatar from '../../assets/img/empty-avatar.jpg';
+import {formatDistance} from "date-fns";
 
 const useStyles = makeStyles(theme => (styles));
 
@@ -14,7 +15,8 @@ function Groups() {
     const classes = useStyles();
 
     const dispatch = useDispatch();
-    const {list, currentGroup, isLoading, hasErrors} = useSelector(store => ({...store.groups}));
+    const {list, currentGroup, isLoading} = useSelector(store => ({...store.groups}));
+    const userList = useSelector(store => (store.users.list));
 
     useEffect(() => {
         dispatch(getGroups());
@@ -41,15 +43,20 @@ function Groups() {
                     <p>spinner</p>
                     :
                     list.map(item => (<Group key={item.id} currentGroup={currentGroup}
-                                             setCurrentGroup={setCurrentGroup} {...item} />))}
+                                             setCurrentGroup={setCurrentGroup} userList={userList} {...item} />))}
             </ul>
         </Box>
     );
 }
 
-function Group({currentGroup, setCurrentGroup, id, name}) {
+function Group({currentGroup, setCurrentGroup, userList, id, name, last_activity}) {
 
     const classes = useStyles();
+
+    let lastUser = undefined;
+    if ('user' in last_activity) {
+        lastUser = userList.find(item => (item.id===last_activity.user))
+    }
 
     const handleGroupClick = () => {
         setCurrentGroup(id);
@@ -60,19 +67,29 @@ function Group({currentGroup, setCurrentGroup, id, name}) {
             <Card className={currentGroup.id === id ? classes.groupWrapperActive : classes.groupWrapper}>
                 <Box className={classes.groupHeader}>
                     <Box display='flex'>
-                        <Box><img src={emptyAvatar} alt="avatar" className={classes.avatarImg}/></Box>
+                        <Box><img src={lastUser ? lastUser.avatar : emptyAvatar} alt="avatar" className={classes.avatarImg}/></Box>
                         <Box>
                             <Typography variant='h3' marginBottom={1}>{name}</Typography>
-                            <Typography variant='infoGroup' color={(currentGroup.id === id) && 'white'}>last online 5
-                                hours ago</Typography>
+                            <Typography variant='infoGroup' color={(currentGroup.id === id) && 'white'}>
+                                {"posted" in last_activity && formatDistance(new Date(lastUser.last_login), new Date(), {addSuffix: true})}
+                            </Typography>
                         </Box>
                     </Box>
                     <Box>
-                        <Typography color={(currentGroup.id === id) && 'white'}>1 minute ago</Typography>
+                        <Typography color={(currentGroup.id === id) && 'white'}>
+                            {"posted" in last_activity &&
+                                formatDistance(new Date(last_activity.posted), new Date(), {addSuffix: true})}
+                        </Typography>
                     </Box>
                 </Box>
                 <Box>
-                    <Typography color={(currentGroup.id === id) && 'white'}>last message</Typography>
+                    <Typography variant='h3' color={(currentGroup.id === id) && 'white'}>{lastUser && lastUser.username+':'}</Typography>
+                    <Typography color={(currentGroup.id === id) && 'white'}>
+                        {"message" in last_activity ?
+                                last_activity.message
+                                :
+                                'no messages'}
+                    </Typography>
                 </Box>
             </Card>
         </li>

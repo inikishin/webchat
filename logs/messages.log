@@ -472,3 +472,66 @@
 2021-09-27 08:30:41,724 connection with chat "undefined" established
 2021-09-27 08:30:42,840 connection with chat "1" established
 2021-09-27 08:30:54,728 message recived: {"user":2,"group":1,"message":"Type a message here"}
+2021-09-30 06:58:56,735 connection with chat "undefined" established
+2021-09-30 06:59:23,908 connection with chat "1" established
+2021-09-30 06:59:25,122 connection closed
+2021-09-30 06:59:25,126 connection with chat "2" established
+2021-09-30 06:59:25,898 connection closed
+2021-09-30 06:59:25,902 connection with chat "1" established
+2021-09-30 07:00:51,059 connection closed
+2021-09-30 07:00:51,063 connection with chat "2" established
+2021-09-30 07:01:36,857 connection closed
+2021-09-30 07:01:36,863 connection with chat "1" established
+2021-09-30 07:01:38,111 connection closed
+2021-09-30 07:01:38,115 connection with chat "2" established
+2021-09-30 07:01:39,066 connection closed
+2021-09-30 07:01:39,071 connection with chat "3" established
+2021-09-30 07:01:40,218 connection closed
+2021-09-30 07:01:40,223 connection with chat "1" established
+2021-09-30 07:17:28,567 connection with chat "2" established
+2021-09-30 07:17:28,955 connection closed
+2021-09-30 07:17:28,959 connection with chat "1" established
+2021-09-30 07:17:31,593 message recived: {"user":2,"group":1,"message":"234"}
+2021-09-30 07:31:06,271 connection with chat "1" established
+2021-09-30 07:31:07,664 connection closed
+2021-09-30 07:31:07,669 connection with chat "3" established
+2021-09-30 07:31:09,006 connection closed
+2021-09-30 07:31:09,011 connection with chat "1" established
+2021-09-30 07:33:05,548 connection closed
+2021-09-30 07:33:08,728 connection with chat "undefined" established
+2021-09-30 07:33:21,286 connection with chat "undefined" established
+2021-09-30 07:35:56,148 connection with chat "1" established
+2021-09-30 07:41:34,511 connection closed
+2021-09-30 07:41:34,514 connection with chat "2" established
+2021-09-30 07:41:35,190 connection closed
+2021-09-30 07:41:35,193 connection with chat "1" established
+2021-09-30 07:42:13,515 message recived: {"user":2,"group":1,"message":"gbgfbf\ntehr"}
+2021-09-30 07:42:20,065 connection closed
+2021-09-30 07:42:20,068 connection with chat "2" established
+2021-09-30 07:42:20,592 connection closed
+2021-09-30 07:42:20,597 connection with chat "1" established
+2021-09-30 07:42:27,525 connection closed
+2021-09-30 07:42:30,082 connection with chat "undefined" established
+2021-09-30 07:51:07,630 connection with chat "undefined" established
+2021-09-30 07:52:15,205 connection with chat "undefined" established
+2021-09-30 07:53:57,814 connection with chat "undefined" established
+2021-09-30 07:55:50,411 connection with chat "undefined" established
+2021-09-30 08:01:28,038 connection with chat "undefined" established
+2021-09-30 08:01:45,085 connection with chat "undefined" established
+2021-09-30 08:01:54,048 connection with chat "undefined" established
+2021-09-30 08:04:40,604 connection with chat "undefined" established
+2021-09-30 08:07:01,446 connection with chat "1" established
+2021-09-30 08:08:10,184 connection with chat "undefined" established
+2021-09-30 08:08:16,141 connection with chat "1" established
+2021-09-30 08:08:17,525 connection closed
+2021-09-30 08:08:17,542 connection with chat "3" established
+2021-09-30 08:20:41,646 connection with chat "undefined" established
+2021-09-30 08:21:52,300 connection with chat "undefined" established
+2021-09-30 08:22:00,472 connection with chat "1" established
+2021-09-30 08:25:13,337 connection closed
+2021-09-30 08:25:32,291 connection with chat "undefined" established
+2021-09-30 08:25:35,794 connection with chat "undefined" established
+2021-09-30 08:25:42,302 connection with chat "3" established
+2021-09-30 08:25:47,711 connection with chat "3" established
+2021-09-30 08:25:58,268 message recived: {"user":3,"group":3,"message":"Hi"}
+2021-09-30 08:26:05,163 message recived: {"user":2,"group":3,"message":"Hi"}

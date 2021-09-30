@@ -6,6 +6,7 @@ import {makeStyles} from '@mui/styles';
 import {Card, CardHeader, CardContent, FormControl, InputLabel, MenuItem, Select, Button, Box} from '@mui/material';
 import {getUsers} from "../../services/actions/users";
 import {LOGIN} from "../../services/actions/auth";
+import {loginRequest} from "../../services/handleApi";
 
 const useStyles = makeStyles(theme => (styles));
 
@@ -31,6 +32,7 @@ function Login() {
         e.preventDefault();
         localStorage.setItem('last_user', JSON.stringify(currentUser));
         dispatch({type: LOGIN, user: currentUser});
+        let promise = loginRequest(currentUser)
     }
 
     return (

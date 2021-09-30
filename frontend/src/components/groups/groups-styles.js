@@ -48,6 +48,7 @@ const styles = {
         height: 54,
         width: 54,
         marginRight: 20,
+        borderRadius: '50%'
     },
 };
 

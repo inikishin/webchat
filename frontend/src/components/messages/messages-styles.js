@@ -18,6 +18,7 @@ const styles = {
         width: 54,
         marginRight: 20,
         marginLeft: 20,
+        borderRadius: '50%'
     },
     messagesMainWrapper: {
         padding: '30px 60px',

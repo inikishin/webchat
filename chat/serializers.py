@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Account, Group
+from .models import Account, Group, Message
 
 
 class AccountSerializer(serializers.ModelSerializer):
@@ -8,11 +8,11 @@ class AccountSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Account
-        fields = ['id', 'user', 'username', 'email']
+        fields = ['id', 'user', 'username', 'email', 'avatar', 'last_login']
 
 
 class GroupSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Group
-        fields = ['id', 'name', 'users', 'private']
+        fields = ['id', 'name', 'users', 'private', 'last_activity']
